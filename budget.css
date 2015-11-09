@@ -26,18 +26,17 @@ body{
 .navbar > li > a:hover{
 	color: #A9A9A9;
 }
-
-#navbuttons{
-	opacity: 1.0;
-	text-decoration: none;
-}
-#navbuttons:hover{
-	opacity: 0.5;
-}
+/*Hover for ikonene i navbar*/
 img{
 	opacity: 1.0;
 }
 
 img:hover{
 	opacity: 0.5;
+}
+
+h1{
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 5%; 
 }
