@@ -34,3 +34,10 @@ body{
 #navbuttons:hover{
 	opacity: 0.5;
 }
+img{
+	opacity: 1.0;
+}
+
+img:hover{
+	opacity: 0.5;
+}
