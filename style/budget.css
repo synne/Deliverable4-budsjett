@@ -11,6 +11,7 @@ body{
 	text-align: center;
 	padding: 3% 0 3% 0;
 	margin: -10px;
+	margin-top: 8px;
 
 }
 .navbar > li{
@@ -38,11 +39,19 @@ img{
 h1{
 	margin-top: 3%; 
 }
+/*Solution kort - i box*/
+.content>h3{
+	border: 2px solid black;
+	padding: 20px;
+	font-family: Candara;
+	margin: 5%;
+}
+
 /*alt innhold på siden*/
-#content{
+.content{
 	margin-right: 15%;
 	margin-left: 15%;
-	font-family: Tahoma;
+	font-family: Candara;
 	line-height: 1.5;
 }
 /*Tekst innhold i appen*/
@@ -57,4 +66,18 @@ h1{
 	width: 40%;
 	float: left;
 	display: inline-block;
+}
+#contact{
+	width: 40%;
+}
+#listwithcontact{
+	float: right;
+}
+#listwithcontact>li{
+	list-style: none;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+#listwithpics{
+	float: left;
 }
