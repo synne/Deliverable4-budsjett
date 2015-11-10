@@ -1,5 +1,5 @@
 body{
-	background-color: #CCCCCC;	
+	background-color: #aeaeae;	
 }
 
 .navbar{
@@ -11,6 +11,7 @@ body{
 	text-align: center;
 	padding: 3% 0 3% 0;
 	margin-top: 0;
+
 }
 .navbar > li{
 	display: inline-block;
@@ -30,12 +31,30 @@ img{
 	opacity: 1.0;
 }
 
-img:hover{
+.navbar img:hover{
 	opacity: 0.5;
 }
 
 h1{
+	margin-top: 5%; 
+}
+/*alt innhold på siden*/
+#content{
 	margin-right: 15%;
 	margin-left: 15%;
-	margin-top: 5%; 
+	font-family: Tahoma;
+	line-height: 1.5;
+}
+/*Tekst innhold i appen*/
+
+#contentoftheapp{
+	float: right;
+	width: 60%;
+	display: inline-block;
+}
+/*bildene i appen*/
+#picturecontent{
+	width: 40%;
+	float: left;
+	display: inline-block;
 }
