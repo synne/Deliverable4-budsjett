@@ -10,7 +10,7 @@ body{
 	list-style-type: none;
 	text-align: center;
 	padding: 3% 0 3% 0;
-	margin-top: 0;
+	margin: -10px;
 
 }
 .navbar > li{
@@ -36,7 +36,7 @@ img{
 }
 
 h1{
-	margin-top: 5%; 
+	margin-top: 3%; 
 }
 /*alt innhold på siden*/
 #content{
