@@ -1,5 +1,7 @@
 body{
-	background-color: #aeaeae;	
+	background-color: white;	
+	font-family: Arial;
+	font-size: 100%;
 }
 
 .navbar{
@@ -9,7 +11,8 @@ body{
 	text-align: center;
 	padding: 3% 0 3% 0;
 	margin: -10px;
-	margin-top: 8px;
+	margin-top: 10px;
+	border: 0.5px solid black;
 
 }
 .navbar > li{
@@ -38,26 +41,22 @@ h1{
 	margin-top: 3%; 
 	margin-right: 15%; 
 	margin-left: 15%;
-	font-family: Candara;
 }
-p{
-	margin-right: 15%;
-	margin-left: 15%;
-	font-family: Cantara;
-}
+
+
+
 /*Solution kort - i box*/
 .content>h3{
 	border: 2px solid black;
 	padding: 20px;
-	font-family: Candara;
-	margin: 5%;
+	margin: 0;
+	margin-top: 5%;
 }
 
 /*alt innhold på siden*/
 .content{
 	margin-right: 15%;
 	margin-left: 15%;
-	font-family: Candara;
 	line-height: 1.5;
 }
 /*Tekst innhold i appen*/
@@ -70,24 +69,94 @@ p{
 /*bildene i appen*/
 #picturecontent{
 	width: 40%;
-	float: left;
 	display: inline-block;
 }
 #contact{
-	width: 40%;
+	width: 50%;
 }
 #listwithcontact{
 	float: right;
 }
-#listwithcontact>li{
+#listwithcontact > li{
 	list-style: none;
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
+
 #listwithpics{
 	float: left;
 }
 
+object{
+
+}
+
+.mobnav{
+	display: none;
+}
+#imgSolMob{
+	display: none;
+}
+
+@media screen and (max-width: 1020px){
+	.mobnav{
+		background-color: #badbad;
+		display: inline-block;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.mobnav > li{
+		display: inline-block;
+		padding: 3%;
+	}
+	
+	.navbar{
+		display: none;
+	}
+
+	#contentoftheapp{
+		display: none;
+	}
+
+	#picturescontent img{
+		display: none;
+	}
+
+	body{
+		font-size: 1.2em;
+		margin: 0;
+		padding: 0;
+	}
+
+	#technical{
+		float: left;
+	}
+	
+	#imgSolMob{
+		display: inline-block;
+		margin: 5%;
+		margin-bottom: 2%;
+	}
+	.content {
+		margin: 5%;
+	}
+
+	#contact{
+	width: 100%;
+	}
+
+	#listwithpics{
+		float: center;	
+	}
+	#homevideo{
+		width: 200;
+		height: 150;
+	}
+
+}
 
 
 
