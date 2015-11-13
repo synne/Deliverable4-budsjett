@@ -107,7 +107,7 @@ img{
 #slogan{
 	margin-top: 50px;
 	text-align: center;
-	margin: 50px 50px 30px 50px;
+	margin: 50px 50px 50px 50px;
 	border: 2px solid black;
 }
 iframe{
@@ -121,16 +121,23 @@ iframe{
 		display: inline-block;
 		text-decoration: none;
 		list-style-type: none;
-		margin-top: 10px;
 		width: 100%;
-		height: 200px;
-		padding-top: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.mobnav > li{
 		display: inline;
-		padding: 4%;
+		padding-left: 3%;
+		padding-right: 3%;
 		list-style: none;
-		
+	}
+	.mobnav:last-child{
+		padding-right: none;
+		background-color: #badbad;
+	}
+
+	.mobnav img{
+		width: 10%;
 	}
 	
 	.navbar{
@@ -146,12 +153,22 @@ iframe{
 	}
 
 	iframe{
-		margin-top: 5%;
-		height: 180px;
-		width: 300px;
+		width: 100%;
+	}
+
+	#slogan{
+		width: 100%;
+		margin: 0;
+	}
+	#slogan img{
+		width: 100%;
 	}
 
 	#survey img{
+		width: 100%;
+	}
+
+	#homevideo{
 		width: 100%;
 	}
 
