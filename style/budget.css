@@ -127,8 +127,8 @@ iframe{
 	}
 	.mobnav > li{
 		display: inline;
-		padding-left: 3%;
-		padding-right: 3%;
+		padding-left: 4%;
+		padding-right: 4%;
 		list-style: none;
 	}
 	.mobnav:last-child{
