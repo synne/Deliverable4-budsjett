@@ -80,12 +80,10 @@ img{
 	list-style: none;
 	padding-bottom: 50px;
 	padding-top: 20px;
-
 }
 
 #listwithpics{
 	float: left;
-	margin-left: 15%;
 }
 
 #probtext{
@@ -195,10 +193,13 @@ iframe{
 		width: 100%;
 	}
 	#listwithpics{
-		margin-left: 7%;
+		margin-left: 1%;
+		margin-right: none;
 	}
 	#listwithcontact{
-		margin-right: 40%;
+		margin-left: none;
+		font-size: 100%;
+		padding-bottom: 40px;
 	}
 
 
