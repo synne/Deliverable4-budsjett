@@ -51,7 +51,7 @@ img{
 	margin-right: 15%;
 	margin-left: 15%;
 	line-height: 1.5;
-}
+	margin-bottom: 5%;}
 
 #survey img{
 	border: 1px solid black;
@@ -186,11 +186,11 @@ iframe{
 		margin-bottom: 2%;
 	}
 	.content {
-		margin: 5%;
+		margin: 10%;
 	}
 
 	#contact{
-		width: 100%;
+		width: 60%;
 	}
 	#listwithpics{
 		margin-left: 1%;
@@ -204,6 +204,7 @@ iframe{
 
 
 }
+
 
 
 
